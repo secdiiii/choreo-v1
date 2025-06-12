@@ -4,12 +4,12 @@ const path = require('path');
 const app = express();
 const { exec, execSync } = require('child_process');
 const port = process.env.SERVER_PORT || process.env.PORT || 3000;        
-const UUID = process.env.UUID || '2ce179dd-8327-4064-aa80-eb23b86387ab'; //若需要改UUID，需要在config.json里改为一致
+const UUID = process.env.UUID || 'a0066281-5b04-4e4a-aa1d-010c3925d1fc'; //若需要改UUID，需要在config.json里改为一致
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'o.o:443';     //不动就行，在config.yaml改
 const NEZHA_PORT = process.env.NEZHA_PORT || '';                     // 不动就行，在config.yaml改
 const NEZHA_KEY = process.env.NEZHA_KEY || 'o';   // 不动就行，在config.yaml改
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'gamehost3.gbjs.cloudns.biz';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
-const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJh';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'choreo.faiz.us.kg';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiNmI3MzZhMDhiMzlmNDVlMzE2ZTdlMGNkODE2Yjc2ZDIiLCJ0IjoiMGU5Yjk2MjUtZDMxMS00MDM4LWEyMjYtOTgwNjNmYzQ5M2E5IiwicyI6Ik9XTXhZak5tTnpndE5HVTJNaTAwWldObExUZzROVGN0TlRSbVpHVm1NbUU0TnpFdyJ9';
 const CFIP = process.env.CFIP || 'www.visa.com.hk';
 const NAME = process.env.NAME || 'Choreo';
 
