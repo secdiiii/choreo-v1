@@ -1,4 +1,4 @@
-client_secret: Vx1XFHryYMh7ekL96KOSqTWroUIGNi99
+client_secret: oeWVGqJdL6Eyo9sm8bvRHmaYlilLqgJM
 debug: false
 disable_auto_update: true
 disable_command_execute: false
@@ -9,7 +9,7 @@ gpu: false
 insecure_tls: true
 ip_report_period: 1800
 report_delay: 4
-server: dx.220704.xyz:443
+server: nz.220704.xyz:443
 skip_connection_count: false
 skip_procs_count: false
 temperature: false
